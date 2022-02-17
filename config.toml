@@ -1,0 +1,4 @@
+baseURL = 'http://BakerLabBABS.github.io/'
+languageCode = 'en-us'
+title = 'test bakerlab site'
+theme = "ananke"

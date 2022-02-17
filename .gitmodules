@@ -1,0 +1,6 @@
+[submodule "/Users/bakerm/OneDrive/OneDrive_UNSW/website/BakerLabBABS.github.io/themes/wowchemy"]
+	path = /Users/bakerm/OneDrive/OneDrive_UNSW/website/BakerLabBABS.github.io/themes/wowchemy
+	url = https://github.com/wowchemy/wowchemy-hugo-themes
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
