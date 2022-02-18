@@ -1,5 +1,5 @@
 ---
-title: "Welcome"
+title: "Baker Lab"
 weight: 1
 ---
 
