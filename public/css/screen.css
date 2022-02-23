@@ -473,7 +473,7 @@ ul li {
   margin-bottom: 0rem;
   text-align: center;
   color: #fff;
-  background: #b80135 no-repeat center center;
+  background: #4f4990 no-repeat center center;
   background-size: cover;
 }
 
@@ -685,6 +685,34 @@ a.fn-item.active {
 .post-content img {
   display: block;
   max-width: 100%;
+  margin: 0 auto;
+}
+
+.post-content img[src$='#floatleft'] {
+  float: left;
+  max-width: 40%;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.post-content img[src$='#floatright'] {
+  float: right;
+  max-width: 40%;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.post-content img[src$='#floatlefthalf'] {
+  float: left;
+  max-width: 50%;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.post-content img[src$='#floatrighthalf'] {
+  float: right;
+  max-width: 50%;
+  padding-left: 20px;
   margin: 0 auto;
 }
 
@@ -927,7 +955,7 @@ a.fn-item.active {
     top: 0px;
     left: 0px;
     z-index: 99999;
-    background: #f2efe8;
+    background: #afc9ce;
     width: 100%;
     text-align: center;
     padding: 4px;
