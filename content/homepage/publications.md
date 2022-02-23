@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Recent Papers"
 weight: 3
 header_menu: true
 ---

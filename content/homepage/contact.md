@@ -13,8 +13,6 @@ header_menu: true
 
 {{<icon class="fa fa-map-marker">}}&nbsp;[School of Biotechnology and Biomolecular Science](https://goo.gl/maps/Qf2nHMhd3SW6QnVq5)
 
-***
-
 ***Find us:***
 
 Biosciences  
