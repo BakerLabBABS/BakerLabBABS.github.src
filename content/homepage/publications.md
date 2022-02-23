@@ -25,7 +25,7 @@ Islam, Gaston, Baker.
 | [journal](https://www.mdpi.com/2077-0375/11/11/857) |
 
 ###### Novel Amiloride Derivatives That Inhibit Bacterial Motility across Multiple Strains and Stator Types
-Islam, Bae, Ishida, Ridone, Lin, Kelso, Sowa, Buckley, Baker.
+Islam, Bae, Ishida, Ridone, Lin, Kelso, Sowa, Buckley, Baker.  
 *Journal of Bacteriology*  
 | [journal](https://journals.asm.org/doi/10.1128/JB.00367-21?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) |
 
