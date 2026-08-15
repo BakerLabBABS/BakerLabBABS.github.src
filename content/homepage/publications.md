@@ -1,16 +1,30 @@
 ---
 title: "Recent Papers"
-weight: 3
+weight: 4
 header_menu: true
 ---
----
+  
+  
 ### Preprints
-
-###### Spontaneous adaptation of ion selectivity in a bacterial flagellar motor
-Ridone, Ishida, Lin, Humphreys, Giannoulatou, Sowa, Baker.  
+##### Ancestral reconstruction of the MotA stator subunit eveals that conserved residues far from the pore are required to drive flagellar motility
+Islam, Ridone, Lin, Michie, Matzke, Hochberg, Baker  
 *bioRxiv*  
-| [PDF](https://www.biorxiv.org/content/10.1101/2021.01.26.427765v3.full.pdf)
-| [bioRxiv](https://www.biorxiv.org/content/10.1101/2021.01.26.427765v3) |
+| [PDF](https://www.biorxiv.org/content/10.1101/2022.10.17.512626v1.full.pdf)
+| [biorxiv](https://www.biorxiv.org/content/10.1101/2022.10.17.512626v1.abstract) |
+
+##### Computer-aided diagnosis of reflectance confocal images to differentiate between lentigo maligna (LM) and atypical intraepidermal melanocytic proliferation (AIMP).
+Mandal•, Priyam•, Chan, Gouveia, Guitera, Song, Baker•, Vafaee•  
+*bioRxiv*  
+| [PDF](https://www.biorxiv.org/content/10.1101/2022.05.10.491423v1.full.pdf)
+| [biorxiv](https://www.biorxiv.org/content/10.1101/2022.05.10.491423v1) |
+
+### 2022
+
+###### The rapid evolution of flagellar ion selectivity in experimental populations of E. coli
+Ridone, Ishida, Lin, Humphreys, Giannoulatou, Sowa, Baker.  
+*Science Advances*  
+| [PDF](https://www.science.org/doi/reader/10.1126/sciadv.abq2492)
+| [journal](https://www.science.org/doi/10.1126/sciadv.abq2492) |
 
 ### 2021
 
@@ -25,7 +39,7 @@ Islam, Gaston, Baker.
 | [journal](https://www.mdpi.com/2077-0375/11/11/857) |
 
 ###### Novel Amiloride Derivatives That Inhibit Bacterial Motility across Multiple Strains and Stator Types
-Islam, Bae, Ishida, Ridone, Lin, Kelso, Sowa, Buckley, Baker.  
+Islam•, Bae•, Ishida•, Ridone, Lin, Kelso, Sowa, Buckley, Baker.  
 *Journal of Bacteriology*  
 | [journal](https://journals.asm.org/doi/10.1128/JB.00367-21?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed) |
 
@@ -40,4 +54,4 @@ Matzke, Lin, Stone, Baker.
 | [PDF](https://onlinelibrary.wiley.com/doi/epdf/10.1002/bies.202100004)
 | [journal](https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.202100004) |
 
-Earlier publications can be viewed on Matt's [Google Scholar](https://scholar.google.com.au/citations?hl=en&user=CAkKpjwAAAAJ&view_op=list_works&sortby=pubdate).
+Earlier and other collaborative publications can be viewed on Matt's [Google Scholar](https://scholar.google.com.au/citations?hl=en&user=CAkKpjwAAAAJ&view_op=list_works&sortby=pubdate).

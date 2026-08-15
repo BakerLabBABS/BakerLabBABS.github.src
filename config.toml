@@ -1,4 +1,4 @@
-baseURL = "https://bakerlabbabs.github.io/"
+baseURL = "https://BakerLabBABS.github.io"
 relativeURLs = "True"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
@@ -10,15 +10,15 @@ defaultContentLanguage = "en"
 theme = "hugo-scroll"
 
 # The "title" of your website
-title = "Baker Lab at UNSW - Synthetic and Evolutionary Biology"
+title = "Baker Lab - UNSW Sydney"
 
 [params]
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Markdown is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Matt Baker (borrowing inspiration from Scott Berry)"
+    copyright = "© Matt Baker"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Baker Lab - UNSW"
+    description = "Synthetic and Evolutionary Biophysics at UNSW"
 
     # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
     favicon = "images/favicon.png"
@@ -27,16 +27,16 @@ title = "Baker Lab at UNSW - Synthetic and Evolutionary Biology"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/cover-image.jpg"]
+    images = ["images/team_submarine.jpg"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Baker Lab - Synthetic and Evolutionary Biology"
+    title = "Baker Lab - UNSW Sydney"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
     # hidedesignbyline = true
 
     [params.meta]
-        keywords = "flagellar motor synthetic biology evolution lipids DNA nanotechnology"
+        keywords = "flagellar motor evolutionary biology experimental evolution directed evolution biophysics DNA nanotechnology"
