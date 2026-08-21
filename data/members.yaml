@@ -1,0 +1,175 @@
+- name: Matt Baker
+  role: Associate Professor and Principal Investigator
+  category: pi
+  status: current
+  image: Matt.jpg
+  order: 1
+  bio: |
+    Matt leads the Baker Lab at the School of Biotechnology and Biomolecular Sciences ([BABS](https://www.babs.unsw.edu.au)) at UNSW. He completed an Hons in [Chemistry](https://chemistry.anu.edu.au/) at ANU and a DPhil in [Physics](https://www.physics.ox.ac.uk/) at the University of Oxford, studying the molecular motor that makes many bacteria swim. He started the group in 2018 as a [Scientia Fellow](https://research.unsw.edu.au/scientia-program) and was promoted to Associate Professor in 2023. See his [UNSW biography](https://www.babs.unsw.edu.au/matthew-baker) or [linktree](http://linktr.ee/phatmattbaker).
+- name: Pietro Ridone
+  role: Postdoctoral researcher
+  category: postdoc
+  status: current
+  image: Pietro.jpg
+  order: 2
+  bio: Pietro applies genome editing and synthetic biology to study the stator proteins that power bacterial flagellar rotation, including engineering *E. coli* and designing artificial stators.
+- name: Jacob Scadden
+  role: Postdoctoral researcher
+  category: postdoc
+  status: current
+  image: Jacob.jpg
+  order: 3
+  bio: Jacob joined the Baker lab in November 2022 after finishing his PhD at the Quadram Institute Bioscience, Norwich, UK (2018-2022) where he studied the regulation of antimicrobial peptides produced by human gut bacteria. Prior to that, Jacob studied both his undergraduate degree in biomedical science (2014-2017) and his Master’s in microbiology and infection (2017-2018) at the University of Birmingham, UK with projects focussing on antimicrobial efflux pumps. His current research project is focused on investigating the evolution of the bacterial flagellar filament using ancestral sequence reconstruction and engineering flagellin variants to test their effect on bacterial motility. Jacob is interested in understanding how these integral flagellar proteins have evolved and how they can be engineered for biotechnological purposes. Jacob is an active committee member of both the Australian Society of Microbiology (NSW/ACT Branch) and the Joint Academic Microbial Seminars Society, where he performs outreach and seminar hosting duties, respectively. Outside the lab, Jacob has taken up many Aussie hobbies including surfing, Oztag, touch rugby and flat white drinking as well as generally basking in the good weather after a lifetime in the UK.
+- name: Janelle Ramos
+  role: PhD student
+  category: phd
+  status: current
+  image: Janelle.jpg
+  order: 4
+  bio: Janelle completed Honours in 2021 on ancestral reconstructions of the rotor and is researching urinary pathogenic *E. coli* to examine sequence-based diagnostics in catheter-associated infections.
+- name: Jamiema Sara Philip
+  role: PhD student
+  category: phd
+  status: current
+  image: Jamiema.jpg
+  order: 5
+  bio: Jamiema’s research background includes bacterial diversity, antibiotic resistance, metagenomics and SARS-CoV-2 genome analysis.
+- name: Yara Elahi
+  role: PhD student
+  category: phd
+  status: current
+  image: Yara.jpg
+  order: 6
+- name: Fatemeh Mohaghegh
+  role: PhD student
+  category: phd
+  status: current
+  image: Fatemeh.jpg
+  order: 7
+  bio: Fatemeh’s research interests include bacterial motility, bacterial biofilms and antibiotic resistance.
+- name: Sahiba Shah
+  role: PhD student
+  category: phd
+  status: current
+  order: 8
+- name: Oliver Taig
+  role: PhD student
+  category: phd
+  status: current
+  image: Oliver.jpg
+  order: 9
+  bio: Oliver completed Honours in the Baker Lab in 2025, and began studying for a PhD in 2026. His current project focuses on designing RNA nanostructures to be transcribed inside of synthetic cells.
+- name: Divyangi Pandit
+  role: PhD student
+  category: phd
+  status: current
+  image: Divyangi.jpg
+  order: 10
+  bio: Div completed her honours in the Baker Lab in 2023 where she worked on the characterisation of ancestral sequence reconstructions of the bacterial flagellar filament. She joined the lab as a PhD student in 2025 with a research focus on investigating the evolutionary relationships between the bacterial flagellar hook, hook-filament junction, and filament capping proteins. Div has a special interest in science communication and teaching and has been demonstrating for the School of BABS since 2024. Outside the lab you can find her at the cinemas, on a flight, curled up with a good book, or in pursuit of her next favourite hobby.
+  alumni_note: Completed Honours in the Baker Lab in 2023.
+- name: Daniel Zhang
+  role: PhD student
+  category: phd
+  status: current
+  order: 11
+- name: Gabby Lewis
+  role: BABS Honours student
+  category: undergraduate
+  status: current
+  order: 12
+- name: Danny Dien
+  role: Computer Science and Engineering undergraduate research student
+  category: undergraduate
+  status: current
+  order: 13
+- name: Suhani Jones
+  role: Computer Science and Engineering undergraduate research student
+  category: undergraduate
+  status: current
+  order: 14
+- name: Ed Luo
+  role: Hons 2024
+  category: honours
+  status: alumni
+  order: 3
+  alumni_note: Hons completed 2024.
+- name: Jessica Do
+  role: Engineering undergraduate 2024
+  category: undergraduate
+  status: alumni
+  order: 4
+  alumni_note: Undergraduate thesis completed 2024.
+- name: Jessica Clark
+  role: Hons 2018
+  category: honours
+  status: alumni
+  order: 12
+  alumni_note: Hons completed 2018.
+- name: Oskar Jaggers
+  role: Hons 2018
+  category: honours
+  status: alumni
+  order: 13
+  alumni_note: Hons completed 2018.
+- name: Es Darley
+  role: Hons 2019
+  category: honours
+  status: alumni
+  order: 11
+  alumni_note: Hons completed 2019.
+- name: James Gaston
+  role: PhD
+  category: phd
+  status: alumni
+  image: James.jpg
+  order: 1
+  alumni_note: PhD completed 2026.
+- name: Vibhuti Nandel
+  role: PhD
+  category: phd
+  status: alumni
+  image: Vibhuti.jpg
+  order: 2
+  alumni_note: PhD completed 2026.
+- name: Imtiazul Islam
+  role: PhD
+  category: phd
+  status: alumni
+  order: 7
+  alumni_note: PhD 2023.
+- name: Alex Mason
+  role: Postdoctoral researcher
+  category: postdoc
+  status: alumni
+  order: 8
+  alumni_note: Postdoc 2021–2023.
+- name: Jyoti Gurung
+  role: PhD
+  category: phd
+  status: alumni
+  order: 3
+  alumni_note: PhD 2024.
+- name: Madhuri Sande
+  role: Postdoctoral researcher
+  category: postdoc
+  status: alumni
+  order: 4
+  alumni_note: Postdoc 2023–2024.
+- name: Shruthi Annamalai
+  role: Honours
+  category: honours
+  status: alumni
+  order: 5
+  alumni_note: Honours 2023–2024.
+- name: Gonzalo Peralta
+  role: Honours
+  category: honours
+  status: alumni
+  order: 9
+  alumni_note: Honours 2016.
+- name: Md Sirajul Islam
+  role: Postdoctoral researcher
+  category: postdoc
+  status: alumni
+  order: 6
+  alumni_note: Postdoc 2023.
