@@ -1,9 +1,13 @@
 /* Restrained Baker Lab refinements: the hugo-scroll theme remains the foundation. */
-.post-content { max-width: 1080px; margin-inline: auto; }
+/* The theme defaults to a 700px desktop column, which is too narrow for profiles. */
+.post { width: min(88%, 1120px); max-width: 1120px; }
+.post-content { max-width: 1120px; margin-inline: auto; }
 .post-content > h3 { margin-top: 2.4em; color: #285b68; letter-spacing: .02em; }
-.member-grid, .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.35rem; margin: 1rem 0 2rem; }
+.member-grid, .project-grid { display: grid; gap: 1.35rem; margin: 1rem 0 2rem; }
+.member-grid { grid-template-columns: 1fr; }
+.project-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .member-card, .project-card { display: flex; gap: 1rem; align-items: flex-start; padding: 1rem; background: rgba(255,255,255,.72); border: 1px solid rgba(40,91,104,.16); border-radius: 4px; }
-.member-card img { width: 108px; height: 108px; flex: 0 0 108px; object-fit: cover; border-radius: 50%; }
+.member-card img { width: 128px; height: 128px; flex: 0 0 128px; object-fit: cover; border-radius: 50%; }
 .member-card h4, .project-card h3, .publication h4 { margin: 0 0 .25rem; }
 .member-role { margin: 0 0 .55rem; color: #5f7478; font-weight: 600; }
 .member-bio p, .project-card p { margin: .35rem 0; }
@@ -18,10 +22,20 @@
 .alumni-list { columns: 2; column-gap: 3rem; }
 .alumni-list p { break-inside: avoid; margin: .6rem 0; }
 .alumni-list span { font-size: .92em; }
-/* Place the light title in the darker, less busy upper part of the header image. */
-#site-head { color: #fff; background-position: center bottom; }
-#site-head-content { transform: translateY(-24%); }
-#site-head .blog-title, #site-head .blog-description { color: #fff; text-shadow: 0 2px 4px rgba(0,0,0,.65); }
+/* Keep the hero copy in the open upper-left background, away from faces. */
+#site-head { color: #fff; background-position: center center; }
+#site-head-content {
+  width: min(42%, 600px);
+  max-width: none;
+  margin-left: 6%;
+  margin-right: auto;
+  text-align: left;
+  transform: translateY(-42%);
+}
+#site-head .blog-title, #site-head .blog-description {
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,.65);
+}
 #site-head .site-menu { color: #fff; background: #285b68; }
 #site-head .site-menu:hover { background: #183c46; }
 /* Keep the theme's alternating rhythm without the original saturated magenta panel. */
@@ -29,7 +43,26 @@
 .post-holder.odd a { color: #1e6070; }
 .project-card { background: rgba(255,255,255,.86); }
 @media (max-width: 700px) {
-  #site-head-content { transform: translateY(-14%); }
+  /* Give the copy its own block above the image so faces stay unobscured. */
+  #site-head {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    min-height: 0;
+    padding: 1.5rem 1rem calc(100vw * .6667);
+    background-position: center bottom;
+    background-size: 100% auto;
+    background-color: #22343a;
+  }
+  #site-head-content {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    transform: none;
+  }
+  #site-head .blog-title { font-size: clamp(2rem, 9vw, 3rem); }
+  #site-head .blog-description { font-size: clamp(1.25rem, 5vw, 1.75rem); }
+  .post { width: 80%; }
   .member-grid, .project-grid { grid-template-columns: 1fr; }
   .member-card { gap: .75rem; }
   .member-card img { width: 84px; height: 84px; flex-basis: 84px; }
