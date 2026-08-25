@@ -40,18 +40,21 @@
   status: current
   image: Yara.jpg
   order: 6
+  bio: Yara is a PhD candidate in Microbiology who joined the Baker Lab in 2023. He conducted his master’s research at Tehran University of Medical Sciences, where he isolated bacteriophages from wastewater that were capable of lysing pathogenic bacteria isolated from patients’ blood. His PhD research focuses on developing an optogenetic approach to control bacterial motility using light. His research involves designing and optogenetically engineering bacterial flagellar motor and chemotaxis proteins to investigate how different engineered strains respond to light. During his PhD, he has actively served on the organising committees for the Australian Centre of Excellence in Synthetic Biology conference and the UNSW SBMS/BABS Joint Symposium.
 - name: Fatemeh Mohaghegh
   role: PhD student
   category: phd
   status: current
   image: Fatemeh.jpg
   order: 7
-  bio: Fatemeh’s research interests include bacterial motility, bacterial biofilms and antibiotic resistance.
+  bio: Fatemeh joined the Baker Lab at UNSW Sydney in 2024 as a PhD candidate in Microbiology, investigating the molecular mechanisms linking bacterial motility and biofilm formation in *Escherichia coli*. She is particularly interested in how bacteria balance motility and biofilm formation and how these pathways can be manipulated for microbial control and biotechnology. Prior to UNSW, Fatemeh completed her Master’s in Medical Microbiology at the University of Isfahan, researching virulence and antimicrobial resistance in methicillin-resistant *Staphylococcus aureus*. She is actively involved in the Australian microbiology and synthetic biology communities as a member of the Australian Society for Microbiology (ASM) and the ARC Centre of Excellence in Synthetic Biology (CoESB). She has also taken on leadership and organisational roles, including Development and Partnerships Lead for ASM and committee roles for the 2026 CoESB Conference and Bugs by the Beach. Outside the lab, Fatemeh enjoys connecting with the scientific community and continuing to develop her skills in research, scientific communication and leadership.
 - name: Sahiba Shah
   role: PhD student
   category: phd
   status: current
+  image: Sahiba.jpg
   order: 8
+  bio: Sahiba completed Honours in the Baker Lab in 2024 where she looked into the relationship between stator protein motility and biofilm formation in *E. coli* and *B. subtilis*. She began studying for a PhD in 2026 centered around *B. subtilis*’ biofilms and its role in agriculture.
 - name: Oliver Taig
   role: PhD student
   category: phd
@@ -71,7 +74,9 @@
   role: PhD student
   category: phd
   status: current
+  image: Daniel.jpg
   order: 11
+  bio: Dan completed his undergrad at the University of Toronto, double majoring in molecular biology and evolutionary biology. He did his master’s at the University of Cambridge, where he researched microalgal synthetic biology. He then worked in the UK synthetic biology industry for 3 years before joining the Baker Lab in 2026. For his PhD, Dan is developing an intelligent microfluidic liposome production platform integrating machine learning and DNA nanotechnology.
 - name: Gabby Lewis
   role: BABS Honours student
   category: undergraduate
