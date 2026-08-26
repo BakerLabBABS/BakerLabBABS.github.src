@@ -93,88 +93,130 @@
   status: current
   order: 14
 - name: Ed Luo
-  role: Hons 2024
+  role: Honours
   category: honours
   status: alumni
-  order: 3
-  alumni_note: Hons completed 2024.
+  end_year: 2024
+  order: 6
 - name: Jessica Do
-  role: Engineering undergraduate 2024
+  role: Engineering UGRD
   category: undergraduate
   status: alumni
-  order: 4
-  alumni_note: Undergraduate thesis completed 2024.
+  end_year: 2024
+  order: 8
 - name: Jessica Clark
-  role: Hons 2018
+  role: Honours
   category: honours
   status: alumni
-  order: 12
-  alumni_note: Hons completed 2018.
+  end_year: 2018
+  order: 19
 - name: Oskar Jaggers
-  role: Hons 2018
+  role: Honours
   category: honours
   status: alumni
-  order: 13
-  alumni_note: Hons completed 2018.
+  end_year: 2018
+  order: 20
 - name: Es Darley
-  role: Hons 2019
+  role: Honours
   category: honours
   status: alumni
-  order: 11
-  alumni_note: Hons completed 2019.
+  end_year: 2019
+  order: 18
 - name: James Gaston
   role: PhD
   category: phd
   status: alumni
   image: James.jpg
+  end_year: 2026
   order: 1
-  alumni_note: PhD completed 2026.
 - name: Vibhuti Nandel
   role: PhD
   category: phd
   status: alumni
   image: Vibhuti.jpg
+  end_year: 2026
   order: 2
-  alumni_note: PhD completed 2026.
 - name: Imtiazul Islam
   role: PhD
   category: phd
   status: alumni
-  order: 7
-  alumni_note: PhD 2023.
+  end_year: 2023
+  order: 12
 - name: Alex Mason
-  role: Postdoctoral researcher
+  role: Postdoc
   category: postdoc
   status: alumni
-  order: 8
-  alumni_note: Postdoc 2021–2023.
+  end_year: 2023
+  order: 13
 - name: Jyoti Gurung
   role: PhD
   category: phd
   status: alumni
-  order: 3
-  alumni_note: PhD 2024.
+  end_year: 2024
+  order: 7
 - name: Madhuri Sande
-  role: Postdoctoral researcher
+  role: Postdoc
   category: postdoc
   status: alumni
-  order: 4
-  alumni_note: Postdoc 2023–2024.
+  end_year: 2024
+  order: 9
 - name: Shruthi Annamalai
   role: Honours
   category: honours
   status: alumni
-  order: 5
-  alumni_note: Honours 2023–2024.
+  end_year: 2024
+  order: 10
 - name: Gonzalo Peralta
   role: Honours
   category: honours
   status: alumni
-  order: 9
-  alumni_note: Honours 2016.
+  end_year: 2016
+  order: 21
 - name: Md Sirajul Islam
-  role: Postdoctoral researcher
+  role: Postdoc
   category: postdoc
   status: alumni
-  order: 6
-  alumni_note: Postdoc 2023.
+  end_year: 2023
+  order: 11
+- name: Jamie Holdsworth
+  role: Honours
+  category: honours
+  status: alumni
+  end_year: 2025
+  order: 3
+- name: Nandan Dhanekula
+  role: Honours
+  category: honours
+  status: alumni
+  end_year: 2025
+  order: 4
+- name: Patrick Ross
+  role: Honours
+  category: honours
+  status: alumni
+  end_year: 2025
+  order: 5
+- name: Sehhaj Grewal
+  role: Engineering UGRD
+  category: undergraduate
+  status: alumni
+  end_year: 2022
+  order: 14
+- name: Imogen Kelly
+  role: Honours
+  category: honours
+  status: alumni
+  end_year: 2022
+  order: 15
+- name: Angela Lin
+  role: Engineering UGRD
+  category: undergraduate
+  status: alumni
+  end_year: 2020
+  order: 16
+- name: Joonhyung Bae
+  role: Honours
+  category: honours
+  status: alumni
+  end_year: 2020
+  order: 17
