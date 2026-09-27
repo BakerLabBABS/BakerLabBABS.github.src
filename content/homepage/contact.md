@@ -39,10 +39,9 @@ Australia
     <figcaption>WeChat</figcaption>
   </figure>
   <figure>
-    <img src="/images/linktree-qr-matt-baker.jpg" alt="Linktree QR code for Matt Baker">
+    <img src="/images/phatmattbaker.svg" alt="Linktree QR code for Matt Baker">
     <figcaption>Linktree</figcaption>
   </figure>
 </div>
-
 
 
