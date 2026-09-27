@@ -1,0 +1,24 @@
+name: Review Scholar publications
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 1 * *'
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.x'}
+      - run: python3 scripts/update_publications.py
+      - name: Commit reviewable snapshot
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/publications.auto.json
+          git diff --cached --quiet || git commit -m "Refresh Scholar publication snapshot"
+          git push

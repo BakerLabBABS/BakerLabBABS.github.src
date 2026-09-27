@@ -1,0 +1,30 @@
+# Biofilm image: Wikimedia Commons File:EColiCRIS051-Fig2.jpg, public domain.
+# https://commons.wikimedia.org/wiki/File:EColiCRIS051-Fig2.jpg
+- title: Ancestral Reconstruction of the Bacterial Flagellar Rotor
+  image: dinoplate.jpg
+  summary: We recreate microbial “Jurassic Parks” by resurrecting ancient flagellar motor componentry in contemporary hosts and measuring how well it works.
+  description: This lets us create ancient motors, synthesise and evolve new motors, and learn about evolutionary processes. We have examined reconstructions of the stators that power the motor and now seek to understand how the rotor evolved and how it can be engineered for new applications.
+- title: Origins of Motility
+  image: motbphylo.jpg
+  summary: We investigate how evolution produces a complex system such as the bacterial flagellum.
+  description: Updated phylogenetic analyses use newer datasets and improved models alongside experimental evolution. Projects can involve planning and conducting phylogenetic analyses, then using synthetic biology to recreate ancestors in a contemporary microbial “Jurassic Park”.
+- title: Programming Synthetic Cells with DNA Origami
+  image: publication-pegylation.jpg
+  summary: We build artificial bilayer systems for interrogating membrane proteins and adding biological functions to droplets.
+  description: DNA nanotechnology programmes liposome assembly and communication across membranes, with the goal of creating light-sensitive liposomes that perform defined functions on demand.
+- title: Microfluidics and Liposomes
+  image: publication-dib-bot.jpg
+  summary: We use microfluidics to separate flagellar motors, build high-throughput selection systems and generate liposomes.
+  description: We are investigating whether flagellar motors can drive fluid motion. Projects can involve designing and building devices that apply the flagellar motor to other systems, and suit people interested in DIY or maker culture, prototyping and device development.
+- title: Utilising Flagellar Filaments in Biotechnology
+  image: publication-flagellin.jpg
+  summary: We use knowledge of the bacterial flagellar motor to add new functions.
+  description: One direction is using the flagellar filament as a scaffold for fluorescent and enzymatic proteins while maintaining motility. Projects can optimise attachment of cargo such as nanoscale beads and purified exogenous proteins.
+- title: Optogenetics
+  image: publication-light-control.jpg
+  summary: We want to control flagellar motion with light to create light-steerable bacteria.
+  description: Existing approaches can act indirectly by manipulating motor fuel; we seek faster control by directly shutting down and re-enabling the motor using light-responsive protein domains and strategic protein engineering.
+- title: Biofilms and *Bacillus*
+  image: biofilm-public-domain.jpg
+  summary: We study biofilms and the genes that trigger biofilm formation, including work in *Bacillus*.
+  description: We are interested in the transition from motility towards biofilm formation, and in how microbial communities and quorum sensing regulate this switch.

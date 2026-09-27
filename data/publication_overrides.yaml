@@ -1,0 +1,5 @@
+# Manual editorial controls. Keep curated exceptions here when the updater finds a record.
+# key: a DOI, Scholar cluster id, or stable title slug; values may include include, title,
+# authors, year, journal and links. The hand-curated data/publications.yaml remains the
+# published list until a reviewed update is applied.
+[]

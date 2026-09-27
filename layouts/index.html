@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{ $headless := .Site.GetPage "/homepage" }}
+{{ $sections := $headless.Resources.ByType "page" }}
+{{ $sections = cond .Site.BuildDrafts $sections (where $sections "Draft" "==" false) }}
+<header id="site-head" {{ with .Params.header_image }}style="background-image: url({{ . }})"{{ end }}>
+  <div class="vertical"><div id="site-head-content" class="inner">
+    {{ with .Params.header_headline }}<h1 class="blog-title">{{ . }}</h1>{{ end }}
+    {{ with .Params.header_subheadline }}<h2 class="blog-description">{{ . }}</h2>{{ end }}
+    {{ range where $sections ".Params.header_menu" "eq" true }}<a class="btn site-menu" data-title-anchor="{{ anchorize .Title }}">{{ .Title }}</a>{{ end }}
+    <i id="header-arrow" class="fa fa-angle-down" aria-hidden="true"></i>
+  </div></div>
+</header>
+<main class="content" role="main"><div class="fixed-nav"></div>
+{{ range $i, $section := $sections }}
+  <div class="post-holder"><article id="{{ anchorize $section.Title }}" class="post {{ if eq $i 0 }}first{{ end }} {{ if eq (add $i 1) (len $sections) }}last{{ end }}">
+    <header class="post-header"><h2 class="post-title">{{ $section.Title }}</h2></header><section class="post-content">
+    {{ if eq $section.Title "Team" }}
+      {{ $section.Content }}
+      {{ range $category := slice "pi" "postdoc" "phd" "undergraduate" }}
+        {{ $label := dict "pi" "Principal investigator" "postdoc" "Postdoctoral researchers" "phd" "PhD students" "undergraduate" "Honours & undergraduate students" }}
+        {{ $people := where (where site.Data.members "status" "current") "category" $category }}
+        {{ if $people }}<h3>{{ index $label $category }}</h3><div class="member-grid">
+          {{ range sort $people "order" }}{{ $person := . }}<article class="member-card">
+            {{ with .image }}<img src="{{ (printf "images/%s" .) | relURL }}" alt="Portrait of {{ $person.name }}" loading="lazy">{{ end }}
+            <div><h4>{{ .name }}</h4><p class="member-role">{{ .role }}</p>{{ with .bio }}<div class="member-bio">{{ . | markdownify }}</div>{{ end }}{{ with .alumni_note }}<p class="member-note">{{ . }}</p>{{ end }}</div>
+          </article>{{ end }}
+        </div>{{ end }}
+      {{ end }}
+      <h3>Alumni</h3><div class="alumni-list">{{ range sort (where site.Data.members "status" "alumni") "order" }}<p><strong>{{ .name }}</strong>, {{ .role }} {{ .end_year }}</p>{{ end }}</div>
+    {{ else if eq $section.Title "Projects" }}
+      {{ .Content }}<div class="project-grid">{{ range site.Data.projects }}<article class="project-card">{{ with .image }}<img src="{{ (printf "images/%s" .) | relURL }}" alt="" loading="lazy">{{ end }}<div><h3>{{ .title | markdownify }}</h3><p class="project-summary">{{ .summary | markdownify }}</p><p>{{ .description | markdownify }}</p></div></article>{{ end }}</div>
+    {{ else if eq $section.Title "Recent Papers" }}
+      {{ $years := slice }}{{ range site.Data.publications }}{{ if not (in $years .year) }}{{ $years = $years | append .year }}{{ end }}{{ end }}
+      {{ range sort $years "value" "desc" }}<h3>{{ . }}</h3>{{ range where site.Data.publications "year" . }}<article class="publication"><h4>{{ .title | markdownify }}</h4><p><em>{{ .journal }}</em><br>{{ .authors }}<br>{{ range .links }}<a href="{{ .url }}">{{ .label }}</a> {{ end }}</p></article>{{ end }}{{ end }}
+      <p>Earlier and other collaborative publications can be viewed on Matt’s <a href="https://scholar.google.com.au/citations?hl=en&amp;user=CAkKpjwAAAAJ&amp;view_op=list_works&amp;sortby=pubdate">Google Scholar profile</a>.</p>
+    {{ else }}{{ $section.Content }}{{ end }}
+    </section>
+  </article></div>
+{{ end }}</main>
+{{ end }}

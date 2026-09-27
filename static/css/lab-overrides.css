@@ -22,6 +22,10 @@
 .alumni-list { columns: 2; column-gap: 3rem; }
 .alumni-list p { break-inside: avoid; margin: .6rem 0; }
 .alumni-list span { font-size: .92em; }
+.contact-qr-grid { display: flex; flex-wrap: wrap; gap: 1.5rem; margin: 1rem 0 2rem; }
+.contact-qr-grid figure { width: min(100%, 260px); margin: 0; text-align: center; }
+.contact-qr-grid img { width: 100%; height: auto; display: block; border-radius: 4px; }
+.contact-qr-grid figcaption { margin-top: .45rem; color: #285b68; font-weight: 600; }
 /* Keep the hero copy in the open upper-left background, away from faces. */
 #site-head { color: #fff; background-position: center center; }
 #site-head-content {
@@ -67,5 +71,6 @@
   .member-card { gap: .75rem; }
   .member-card img { width: 84px; height: 84px; flex-basis: 84px; }
   .alumni-list { columns: 1; }
+  .contact-qr-grid { justify-content: center; }
   .post-content { padding-inline: 1rem; }
 }

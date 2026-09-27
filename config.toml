@@ -1,5 +1,5 @@
-baseURL = "https://BakerLabBABS.github.io"
-relativeURLs = "True"
+baseURL = "https://bakerlabbabs.github.io/"
+relativeURLs = true
 
 # This is a "one page"-website, so we do not need these kinds of pages...
 disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
@@ -27,7 +27,7 @@ title = "Baker Lab - UNSW Sydney"
     # services like Twitter or Slack want to generate a preview of a link to your site.
     # See https://gohugo.io/templates/internal#twitter-cards and
     # https://gohugo.io/templates/internal#open-graph.
-    images = ["images/team_submarine.jpg"]
+    images = ["images/header-2026.jpg"]
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
@@ -40,3 +40,6 @@ title = "Baker Lab - UNSW Sydney"
 
     [params.meta]
         keywords = "flagellar motor evolutionary biology experimental evolution directed evolution biophysics DNA nanotechnology"
+
+[markup.goldmark.renderer]
+    unsafe = true

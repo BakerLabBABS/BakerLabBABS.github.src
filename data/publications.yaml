@@ -1,0 +1,147 @@
+- year: 2026
+  title: "Phage-encoded sRNA counteracts xenogeneic silencing in pathogenic E. coli"
+  journal: PLOS Pathogens
+  authors: Poudyal, Sy, Mediati, Payne, Nandel, Norris, McAteer, Ullah, Li, Menz, Alquethamy, Scadden, Ridone, Waters, Dallman, Baker, Lan, Gally, Tree.
+  links: [{label: journal, url: https://doi.org/10.1371/journal.ppat.1014486}]
+- year: 2026
+  title: "Archaeal Cytoskeletal Protein CetZ1 Influences Assembly of the Motility Machinery"
+  journal: Molecular Microbiology
+  authors: Brown, Islam, Ruan, Baker, Ithurbide, Duggin.
+  links: [{label: journal, url: https://doi.org/10.1111/mmi.70109}]
+- year: 2026
+  title: "To Move or Not to Move: When and How Bacteria Suppress Flagellar Motility"
+  journal: Molecular Microbiology
+  authors: Mohaghegh, Scadden, Baker.
+  links: [{label: journal, url: https://doi.org/10.1111/mmi.70085}]
+- year: 2026
+  title: "Flagellin beyond motility: exploiting flagellar filaments in biotechnology"
+  journal: Trends in Biotechnology (in press)
+  authors: Pandit, Scadden*, Baker*.
+  links: [{label: journal, url: https://doi.org/10.1016/j.tibtech.2026.05.007}]
+- year: 2026
+  title: "Structural insights into the assembly and evolution of a complex bacterial flagellar motor"
+  journal: Nature Microbiology
+  authors: Feng, Tachiyama, He, Zhu, Zhao, Botting, Liu, Chen, Hua, Lara-Tejero, Baker, Gao, Liu, Gao.
+  links: [{label: journal, url: https://doi.org/10.1038/s41564-025-02248-5}]
+- year: 2026
+  title: "A Pipeline for Generating Datasets of Three-Dimensional Tertiary Interaction Characters for Model-Based Structural Phylogenetics"
+  journal: Methods in Molecular Biology
+  authors: Matzke, Puente-Lelievre, Baker.
+  links: [{label: chapter, url: https://doi.org/10.1007/978-1-0716-4836-0_14}]
+- year: 2025
+  title: "The effect of PEGylation on surface tethering of liposomes via DNA nanotechnology"
+  journal: Journal of Lipid Research (in press)
+  authors: Gaston, Meepat, Islam, Daljit Singh, Booth, Wickham, Baker.
+  links:
+    - {label: bioRxiv, url: https://doi.org/10.1101/2025.07.07.663613}
+    - {label: journal, url: https://doi.org/10.1016/j.jlr.2025.100940}
+- year: 2025
+  title: "Insertion of Fluorescent Proteins Near the Plug Domain of MotB Generates Functional Stator Complexes"
+  journal: MicrobiologyOpen 14, e70056
+  authors: Gurung, Ridone, Biquet-Bisquert, Bryant, Pedaci, Nord, Baker.
+  links: [{label: journal, url: https://doi.org/10.1002/mbo3.70056}]
+- year: 2025
+  title: "Bridging Visual-Textual Modalities: Weakly Supervised Histopathology Segmentation"
+  journal: The Thirty Sixth British Machine Vision Conference
+  authors: Gao, Baker, Pagnucco, Gao, Song.
+  links: [{label: conference, url: https://bmvc2025.bmva.org/}]
+- year: 2025
+  title: "Evolution and structural diversity of the MotAB stator: insights into the origins of bacterial flagellar motility"
+  journal: mBio 0, e03824-24
+  authors: Puente-Lelievre, Ridone, Douglas, Amritkar, Kaçar, Baker*, Matzke.
+  links: [{label: journal, url: https://doi.org/10.1128/mbio.03824-24}]
+- year: 2025
+  title: "Rescue of bacterial motility using two- and three-species FliC chimeras"
+  journal: Journal of Bacteriology 0, e00517-24
+  authors: Scadden, Ridone, Pandit, Sowa, Baker.
+  links: [{label: journal, url: https://doi.org/10.1128/jb.00517-24}]
+- year: 2025
+  title: "Mapping the loss of flagellar motility across the tree of life"
+  journal: The ISME Journal
+  authors: Philip, Grewal, Scadden, Lelievre, Matzke, McNally, Baker.
+  links: [{label: journal, url: https://doi.org/10.1093/ismejo/wraf111}]
+- year: 2025
+  title: "Multimodal Weakly Supervised Segmentation for Histopathology"
+  journal: Proceedings International Symposium on Biomedical Imaging
+  authors: Gao, Baker, Pagnucco, Song.
+  links: [{label: journal, url: https://doi.org/10.1109/ISBI60581.2025.10980775}]
+- year: 2024
+  title: Hybrid Exb/Mot stators require substitutions distant from the chimeric pore to power flagellar rotation
+  journal: Journal of Bacteriology
+  authors: Ridone, Baker.
+  links: [{label: bioRxiv, url: https://www.biorxiv.org/content/10.1101/2024.03.12.584617v2}]
+- year: 2024
+  title: "DIB-BOT: An open-source hardware approach for high throughput droplet interface bilayer deposition"
+  journal: Advanced Materials Interfaces
+  authors: Mason, Wickham, Baker.
+  links: [{label: bioRxiv, url: https://www.biorxiv.org/content/10.1101/2024.01.26.577347v1}]
+- year: 2024
+  title: The parasitic lifestyle of an archaeal symbiont
+  journal: Nature Communications
+  authors: Hamm, Liao, von Kügelgen, Dombrowski, Landers, Brownlee, Johansson, Whan, Baker, Baum, Bharat, Duggin, Spang, Cavicchioli.
+  links: [{label: journal, url: https://www.nature.com/articles/s41467-024-49962-y}]
+- year: 2024
+  title: Light control in microbial systems
+  journal: International Journal of Molecular Sciences
+  authors: Elahi, Baker.
+  links: [{label: journal, url: https://www.mdpi.com/1422-0067/25/7/4001}]
+- year: 2023
+  title: Tuning the stator subunit of the flagellar motor with coiled-coil engineering
+  journal: Protein Science
+  authors: Ridone, Winter, Baker.
+  links: [{label: journal, url: https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4811}]
+- year: 2023
+  title: "Ion-Powered Rotary Motors: Where Did They Come from and Where Are They Going?"
+  journal: International Journal of Molecular Sciences
+  authors: Nandel, Scadden, Baker.
+  links: [{label: journal, url: https://www.mdpi.com/1422-0067/24/13/10601}]
+- year: 2023
+  title: "Microbial stir bars: Light-activated rotation of tethered bacterial cells to enhance mixing in stagnant fluids"
+  journal: Biomicrofluidics
+  authors: Gurung, Navvab Kashani, de Silva, Baker.
+  links: [{label: journal, url: https://pubs.aip.org/bmf/article/17/2/024108/2887170/Microbial-stir-bars-Light-activated-rotation-of}]
+- year: 2023
+  title: Ancestral reconstruction of the MotA stator subunit reveals that conserved residues far from the pore are required to drive flagellar motility
+  journal: microLife
+  authors: Islam, Ridone, Lin, Michie, Matzke, Hochberg, Baker.
+  links: [{label: journal, url: https://academic.oup.com/microlife/article/doi/10.1093/femsml/uqad011/7100954}]
+- year: 2023
+  title: "Computer-aided diagnosis of reflectance confocal images to differentiate between lentigo maligna (LM) and atypical intraepidermal melanocytic proliferation (AIMP)"
+  journal: Cancers
+  authors: Mandal, Priyam, Chan, Gouveia, Guitera, Song, Baker, Vafaee.
+  links: [{label: journal, url: https://www.mdpi.com/2072-6694/15/5/1428}]
+- year: 2022
+  title: Building programmable multicompartment artificial cells incorporating remotely activated protein channels using microfluidics and acoustic levitation
+  journal: Nature Communications
+  authors: Li, Jamieson, Dimitriou, Xu, Rohde, Martinac, Baker, Drinkwater, Castell, Barrow.
+  links: [{label: journal, url: https://www.nature.com/articles/s41467-022-31898-w}]
+- year: 2022
+  title: The rapid evolution of flagellar ion selectivity in experimental populations of *E. coli*
+  journal: Science Advances
+  authors: Ridone, Ishida, Lin, Humphreys, Giannoulatou, Sowa, Baker.
+  links: [{label: journal, url: https://www.science.org/doi/10.1126/sciadv.abq2492}]
+- year: 2021
+  title: "Binding of DNA origami to lipids: maximizing yield and switching via strand displacement"
+  journal: Nucleic Acids Research
+  authors: Daljit Singh, Darley, Ridone, Gaston, Abbas, Wickham, Baker.
+  links: [{label: journal, url: https://academic.oup.com/nar/article/49/19/10835/6382389}]
+- year: 2021
+  title: Fluorescence Approaches for Characterizing Ion Channels in Synthetic Bilayers
+  journal: Membranes
+  authors: Islam, Gaston, Baker.
+  links: [{label: journal, url: https://www.mdpi.com/2077-0375/11/11/857}]
+- year: 2021
+  title: Novel Amiloride Derivatives That Inhibit Bacterial Motility across Multiple Strains and Stator Types
+  journal: Journal of Bacteriology
+  authors: Islam, Bae, Ishida, Ridone, Lin, Kelso, Sowa, Buckley, Baker.
+  links: [{label: journal, url: https://journals.asm.org/doi/10.1128/JB.00367-21}]
+- year: 2021
+  title: "Pushing the super-resolution limit: recent improvements in microscopy below the diffraction limit"
+  journal: Biochemical Society Transactions
+  authors: Nieves, Baker.
+  links: [{label: journal, url: https://portlandpress.com/biochemsoctrans/article-abstract/49/1/431/227879}]
+- year: 2021
+  title: "Flagellar export apparatus and ATP synthetase: Homology evidenced by synteny predating the Last Universal Common Ancestor"
+  journal: BioEssays
+  authors: Matzke, Lin, Stone, Baker.
+  links: [{label: journal, url: https://onlinelibrary.wiley.com/doi/abs/10.1002/bies.202100004}]

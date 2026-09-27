@@ -5,13 +5,15 @@ header_menu: true
 ---
 
 
-{{<icon class="fa fa-phone">}}&nbsp;[+61 2 9385065 1277](tel:+61293851277)
+{{< icon class="fa fa-phone">}}&nbsp;[+61 2 9385065 1277](tel:+61293851277)
 
-{{<icon class="fa fa-envelope">}}&nbsp;[phatmattbaker@gmail.com](mailto:phatmattbaker@gmail.com)
+{{< icon class="fa fa-envelope">}}&nbsp;[phatmattbaker@gmail.com](mailto:phatmattbaker@gmail.com)
 
-{{<icon class="fa fa-twitter">}}&nbsp;[@phatmattbaker](http://twitter.com/phatmattbaker)
+{{< icon class="fa fa-envelope">}}&nbsp;Matthew dot Baker at unsw dot edu dot au
 
-{{<icon class="fa fa-map-marker">}}&nbsp;[School of Biotechnology and Biomolecular Science](https://goo.gl/maps/Qf2nHMhd3SW6QnVq5)
+{{< icon class="fa fa-twitter">}}&nbsp;[@phatmattbaker](http://twitter.com/phatmattbaker)
+
+{{< icon class="fa fa-map-marker">}}&nbsp;[School of Biotechnology and Biomolecular Science](https://goo.gl/maps/Qf2nHMhd3SW6QnVq5)
 
 ***Find us:***
 
@@ -29,8 +31,18 @@ Via Gate 11, Botany Street
 UNSW Sydney NSW 2052  
 Australia
 
+***Connect with Matt:***
 
-
+<div class="contact-qr-grid">
+  <figure>
+    <img src="/images/wechat-qr-matt-baker.jpg" alt="WeChat QR code for Matt Baker">
+    <figcaption>WeChat</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/linktree-qr-matt-baker.jpg" alt="Linktree QR code for Matt Baker">
+    <figcaption>Linktree</figcaption>
+  </figure>
+</div>
 
 
 
