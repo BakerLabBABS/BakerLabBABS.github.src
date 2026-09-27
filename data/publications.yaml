@@ -30,7 +30,7 @@
   links: [{label: chapter, url: https://doi.org/10.1007/978-1-0716-4836-0_14}]
 - year: 2025
   title: "The effect of PEGylation on surface tethering of liposomes via DNA nanotechnology"
-  journal: Journal of Lipid Research (in press)
+  journal: Journal of Lipid Research
   authors: Gaston, Meepat, Islam, Daljit Singh, Booth, Wickham, Baker.
   links:
     - {label: bioRxiv, url: https://doi.org/10.1101/2025.07.07.663613}
